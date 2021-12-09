@@ -1,0 +1,335 @@
+.Header {
+  background-color: #f97f75;
+  height: 80px;
+}
+
+.Header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px 20px 20px 20px;
+  font-family: garamond;
+}
+
+ul {
+  width: auto;
+  float: right;
+  margin-top:8px;
+}
+
+li {
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+a {
+  text-align: center;
+  color: black ;
+  text-decoration: none;
+  font-family: garamond;
+  font-size: 1.2vw;
+}
+
+a:hover {
+  color: #F0c330;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .Header-logo {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+
+   a {
+     font-size: 25px;
+   }
+}
+
+.Main {
+  background-color: #f7a39f;
+}
+
+.gambar {
+  padding: 90px 20px 70px 0px;
+  align-content: center;s
+}
+
+.enha {
+  width: 700px;
+  height: 400px;
+}
+
+.kolom h2 {
+  width: 100%;
+  text-align: center;
+  font-family: garamond;
+  font-size: 36px;
+  line-height: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.kolom p {
+  width: auto;
+  text-align: center;
+  font-family: Calibri;
+  line-height: 20px;
+  font-size: 10px;
+  padding: 5px 0px 5px 0px;
+  font-size: 15px;
+}
+
+.kolom p span {
+  font-size: 20px;
+  font-family: Calibri;
+}
+
+.grid {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.grid > article {
+  background: #eee5e9;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform .3s;
+}
+
+.grid > article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text h3 {
+  text-transform: uppercase;
+}
+
+.grad {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  align-items: center;
+}
+
+.grad > article {
+  background: #eee5e9;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform .3s;
+}
+
+.grad > article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grad > article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.taxt {
+  padding: 0 20px 20px;
+}
+
+.taxt h3 {
+  text-transform: uppercase;
+}
+
+.disko {
+  width: 500px;
+  height: 500px;
+}
+
+.diskografi {
+  padding: 90px 20px 70px 0px;
+  align-content: center;s
+}
+
+.bingung h2 {
+  width: 100%;
+  text-align: center;
+  font-family: garamond;
+  font-size: 36px;
+  line-height: 0px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color:   #003300;
+}
+
+.bingung p {
+  width: auto;
+  text-align: center;
+  font-family: Calibri;
+  line-height: 20px;
+  padding: 5px 0px 5px 0px;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+     .enha {
+       width: 550px;
+       height: 300px;
+       margin-left: 20px;
+     }
+
+     .kolom h2 {
+       font-size: 30px;
+     }
+
+     .kolom p {
+       font-size: 15px;
+       margin-left: 20px;
+       margin-right: 20px;
+     }
+
+     .kolom p span {
+       font-size: 15px;
+     }
+
+     .grid {
+       grid-template-columns: repeat(2, 1fr);
+     }
+
+     .grad {
+       grid-template-columns: repeat(2, 1fr);
+     }
+
+     .disko {
+       width: 100px;
+       height: 100px;
+     }
+
+     .bingung h2 {
+       font-size: 20px;
+     }
+
+     .bingung p {
+       font-size: 15px;
+       text-align: justify;
+       margin-left: 40px;
+       margin-right: 40px;
+     }
+}
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+
+  .kolom h2 {
+    font-size: 40px;
+  }
+
+  .kolom p {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .kolom p span {
+    font-size: 30px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap : 80px;
+    margin-left: 150px;
+  }
+
+  .grad {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap : 80px;
+    margin-left: 150px;
+  }
+
+  .disko {
+    margin-left: 50px;
+  }
+
+}
+
+.Footer {
+  background-color: #f97f75;
+  height: 100px;
+}
+
+.sosmet a {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  float: left;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-size: 25px;
+}
+
+.sosmet img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 30px;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sosmet a {
+    padding-bottom: 25px;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+
+  .sosmet img {
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For tablets: */
+
+  .sosmet a {
+    padding-bottom: 25px;
+    padding-left: 5px;
+    font-size: 25px;
+  }
+
+  .sosmet img {
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+}
